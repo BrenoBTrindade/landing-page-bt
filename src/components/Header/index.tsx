@@ -1,5 +1,7 @@
-import Link from "../Link"
-import Title from "../Title"
+import Link from "../Link";
+import Title from "../Title";
+import { MoonIcon } from "@heroicons/react/24/solid";
+import TogleTheme from "../TogleTheme";
 
 export default function Header() {
     return (
@@ -24,9 +26,7 @@ export default function Header() {
                 GitHub
             </Link>
             </div>
-            <span className="mr-5">
-                Tema
-            </span>
+            <TogleTheme />
         </div>
     )
 }
