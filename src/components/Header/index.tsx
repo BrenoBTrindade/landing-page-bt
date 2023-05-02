@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className=" m-auto opacity-80  p-3 flex justify-between items-center bg-slate-950 rounded-sm text-neutral-50">
             <Title>
-                Developer Full Stack
+                Desenvolvedor Full Stack
             </Title>
             <div className="flex w-1/3 justify-between">
             <Link href='#sobre'>
