@@ -17,10 +17,10 @@ export default function Header() {
             <Link href='#projetos'>
                 Projetos
             </Link>
-            <Link href='https://www.linkedin.com/in/betrindade/'>
+            <Link href='https://www.linkedin.com/in/betrindade/' target="-blank">
                 Linkedin
             </Link>
-            <Link href='https://github.com/BrenoBTrindade'>
+            <Link href='https://github.com/BrenoBTrindade' target="-blank">
                 GitHub
             </Link>
             </div>
