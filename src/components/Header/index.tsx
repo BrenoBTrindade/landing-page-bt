@@ -3,7 +3,7 @@ import Title from "../Title"
 
 export default function Header() {
     return (
-        <div className=" m-auto opacity-80  p-3 flex justify-between items-center bg-slate-950 rounded-sm text-neutral-50">
+        <div className=" m-auto  p-3 flex justify-between items-center bg-slate-950 rounded-sm text-neutral-50 shadow-sm">
             <Title>
                 Desenvolvedor Full Stack
             </Title>
