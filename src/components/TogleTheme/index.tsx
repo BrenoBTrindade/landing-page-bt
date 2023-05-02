@@ -1,9 +1,15 @@
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
+import { useEffect } from "react";
 
 export default function TogleTheme () {
     const togle = () => {
         document.documentElement.classList.toggle('dark')
     }
+
+    useEffect(() => {
+        const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches
+        systemPreference && document.documentElement.classList.add('dark')
+    })
 
  return (
     <div className="hidden sm:block">
