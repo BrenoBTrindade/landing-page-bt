@@ -6,7 +6,7 @@ type Props = {
 
  export default function Paragraph({children}: Props) {
     return (
-        <p className='text-justify text-base max-lg:text-sm dark:text-gray-100 w-11/12 ml-2 mt-7'>
+        <p className='text-justify text-base max-md:text-sm dark:text-gray-100 w-11/12 ml-2 mt-7 max-md:ml-0 max-md:mt-0 max-md:w-5/3'>
             {children}
         </p>
     )
