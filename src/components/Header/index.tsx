@@ -5,11 +5,16 @@ import TogleTheme from "../TogleTheme";
 
 export default function Header() {
     return (
-        <div className=" m-auto  p-3 flex justify-between items-center bg-slate-950 rounded-sm text-neutral-50 shadow-sm">
+        <div className=" m-auto w-4/5 p-3 flex justify-between items-center bg-transparent border-none rounded-sm text-gray-950 max-lg:justify-evenly">
+           <div className="flex flex-col items-start">
             <Title>
-                Desenvolvedor Full Stack
+                Breno Trindade
             </Title>
-            <div className="flex w-1/3 justify-between">
+            <Title>
+                Desenvolvedor Web Full Stack
+            </Title>
+           </div>
+            <div className="flex w-1/3 justify-between max-xl:hidden">
             <Link href='#sobre'>
                 Sobre
             </Link>
