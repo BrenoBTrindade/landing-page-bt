@@ -14,7 +14,7 @@ export default function Header() {
                 Desenvolvedor Web Full Stack
             </Title>
            </div>
-            <div className="flex w-3/5 justify-evenly max-xl:hidden">
+            <div className="flex w-2/5 justify-evenly max-lg:hidden">
             <Link href='#sobre'>
                 Sobre
             </Link>
