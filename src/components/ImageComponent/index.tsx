@@ -7,7 +7,7 @@ type Props = {
  
  export default function ImageComponent({src, alt}:Props) {
     return (
-       <Image src={src} alt={alt} width={500} height={500} />
+       <Image src={src} alt={alt} className="w-2/4 h-[550px] rounded-xl ml-9 mt-8 mb-8" width={500} height={500} />
     )
 }
 
