@@ -4,37 +4,48 @@ import ImageComponent from "@/components/ImageComponent";
 import SectionTitle from "@/components/SectionTitle";
 import Paragraph from "@/components/Paragraph";
 import { CheckCircleIcon, ChatBubbleLeftEllipsisIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import TogleThemeMobile from "@/components/TogleThemeMobile";
+import Head from "next/head";
+import Carousel from "../Carousel";
+import Link from "@/components/Link";
+
 
 const HomeScreen = () => {
     return (
-        <main>
-            <section>
+        <React.Fragment>
+            <Head>
+                <title>Breno Trindade</title>
+            </Head>
+            <section className="flex">
                 <Header/>
+                <div className="md:hidden">
+                    <TogleThemeMobile />
+                </div>
             </section>
-            <section className=" bg-white rounded-xl flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-slate-700 max-lg:bg-transparent max-lg:min-w-full max-lg:text-center">
-                <ImageComponent src={'/avatar.jpg'} alt={'foto de teste'}/>
-                <div id="sobre" className="w-1/2">
+            <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-slate-700 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+                <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
+                <div id="sobre" className="w-1/2 max-md:min-w-full">
                     <SectionTitle>
                         Sobre mim
                     </SectionTitle>
-                    <div className="ml-8">
+                    <div className="ml-8 max-md:min-w-full">
                         <Paragraph>
                             Especializado em Desenvolvimento Web, sou graduado em Engenharia da Computação. Apaixonado por programação, estou sempre em busca de ampliar e desenvolver o meu
                             conhecimento na área. Acredito que tudo se resolve com
-                            comunicação e trabalho em equipe..
+                            comunicação e trabalho em equipe.
                         </Paragraph>
                     </div>
                     <SectionTitle>
                         Formação/Cursos
                     </SectionTitle>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7 mt-8 ml-8 dark:text-gray-100"/>
+                        <CheckCircleIcon className="h-7 mt-8 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
                         <Paragraph>
                             Engenharia da computação - Estácio-Iesam
                         </Paragraph>
                     </div>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7  mt-8 ml-8 dark:text-gray-100"/>
+                        <CheckCircleIcon className="h-7  mt-8 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0"/>
                         <Paragraph>
                             Desenvolvimento Web Full Stack - Trybe.
                         </Paragraph>
@@ -42,21 +53,45 @@ const HomeScreen = () => {
                     <SectionTitle>
                         Fale Comigo!
                     </SectionTitle>
-                    <div className="ml-8 flex">
-                        <EnvelopeIcon className="h-7  mt-7 ml-5 dark:text-gray-100" />
+                    <div className="ml-4 flex items-center">
+                        <EnvelopeIcon className="h-7  mt-7 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
                         <Paragraph>
                             brenokaminski@hotmail.com
                         </Paragraph>
                     </div>
-                    <div className="ml-8 flex">
-                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-7 ml-5 dark:text-gray-100" />
+                    <div className="ml-4 flex items-center">
+                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-7 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
                         <Paragraph>
                             (91)98156-1194
                         </Paragraph>
                     </div>
                 </div>
             </section>
-        </main>
+            <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-slate-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+                <div className="flex justify-center">
+                   <SectionTitle>
+                        Tecnologias mais utilizadas
+                   </SectionTitle>
+                </div>
+                <div className="flex justify-center">    
+                   <Carousel />
+                </div>
+                <section>
+                <div className="flex justify-center">
+                   <SectionTitle>
+                        Projetos
+                   </SectionTitle>
+                </div>
+                   <h1 className="text-center mt-10 font-bold">
+                        EM DESENVOLVIMENTO......
+                   </h1>
+                   <p className="text-center mt-10 font-bold">
+                        projetos publicados no
+                   <a href="https://github.com/BrenoBTrindade" target="_Blank" className="text-center ml-1 text-blue-600">GitHub</a>
+                   </p>
+                </section>
+            </section>
+        </React.Fragment>
     )
 };
 
