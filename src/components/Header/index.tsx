@@ -30,8 +30,8 @@ export default function Header() {
             <Link href='https://github.com/BrenoBTrindade' target="-blank">
                 GitHub
             </Link>
-            </div>
             <TogleTheme />
+            </div>
         </div>
     )
 }

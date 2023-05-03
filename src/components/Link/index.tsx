@@ -8,7 +8,7 @@ type Props = {
 
 export default function Link({children , href, target}: Props) {
     return (
-        <NextLink href={href} passHref target={target} className='text-sm border-2 duration-500 border-transparent font-bold text-gray-950 text-opacity-80 hover:text-opacity-100 hover:border-b-black dark:text-gray-100 dark:hover:border-b-white'>
+        <NextLink href={href} passHref target={target} className='text-sm border-2 duration-500 border-transparent font-bold text-gray-950 text-opacity-60 dark:text-opacity-60 dark:hover:text-opacity-100 hover:text-opacity-100 hover:border-b-black dark:text-gray-100 dark:hover:border-b-white'>
             {children}
         </NextLink>
     )
