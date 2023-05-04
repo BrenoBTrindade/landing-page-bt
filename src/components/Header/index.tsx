@@ -10,11 +10,11 @@ export default function Header() {
                     <Title>
                         Breno Trindade
                     </Title>
-                    <Title>
+                    <h2 className="text-lg opacity-80 dark:text-white">
                         Desenvolvedor Web Full Stack
-                    </Title>
+                    </h2>
             </div>
-                <div className="flex w-2/5 justify-evenly max-lg:hidden">
+                <nav className="flex w-2/5 justify-evenly max-lg:hidden">
                     <Link href='#sobre'>
                         Sobre
                     </Link>
@@ -31,7 +31,7 @@ export default function Header() {
                         GitHub
                     </Link>
                     <TogleTheme />
-            </div>
+            </nav>
         </div>
     )
 }
