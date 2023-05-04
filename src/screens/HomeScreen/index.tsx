@@ -26,7 +26,7 @@ const HomeScreen = () => {
                 <div className="w-2/4 h-2/4 p-3.5 mt-8 mb-8 ml-9 ">
                     <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
                 </div>
-                <div id="sobre" className="w-2/4 max-md:min-w-full">
+                <div id="sobre" className="w-2/4 h-2/4 -mt-[60px] max-md:min-w-full">
                     <SectionTitle>
                         Sobre mim
                     </SectionTitle>
@@ -41,13 +41,13 @@ const HomeScreen = () => {
                         Formação/Cursos
                     </SectionTitle>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7 mt-8 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
+                        <CheckCircleIcon className="h-7 mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
                         <Paragraph>
                             Engenharia da computação - Estácio-Iesam
                         </Paragraph>
                     </div>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7  mt-8 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0"/>
+                        <CheckCircleIcon className="h-7  mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0"/>
                         <Paragraph>
                             Desenvolvimento Web Full Stack - Trybe.
                         </Paragraph>
@@ -56,18 +56,18 @@ const HomeScreen = () => {
                         Fale Comigo!
                     </SectionTitle>
                     <div className="ml-4 flex items-center">
-                        <EnvelopeIcon className="h-7  mt-7 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
+                        <EnvelopeIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
                         <Paragraph>
                             brenokaminski@hotmail.com
                         </Paragraph>
                     </div>
                     <div className="ml-4 flex items-center">
-                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-7 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
+                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
                         <Paragraph>
                             (91)98156-1194
                         </Paragraph>
                     </div>
-                        <div className="flex justify-end mr-4 dark:text-white">
+                        <div className="ml-4 flex items-center mt-3 dark:text-white">
                                 <ArrowDownTrayIcon className="h-7  ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
                                 <a className="ml-2 mt-1 font-bold" href='https://drive.google.com/file/d/1MnK6T0YHWsZPUWiE2y14KrzsUUW0aUd2/view' target="-blank">
                                 Download CV
