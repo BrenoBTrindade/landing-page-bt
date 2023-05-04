@@ -10,7 +10,7 @@ export default function Header() {
                     <Title>
                         Breno Trindade
                     </Title>
-                    <h2 className="text-lg opacity-80 dark:text-white">
+                    <h2 className="text-lg ml-0.5 opacity-80 dark:text-white">
                         Desenvolvedor Web Full Stack
                     </h2>
             </div>
