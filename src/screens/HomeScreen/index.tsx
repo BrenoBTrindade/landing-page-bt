@@ -41,13 +41,13 @@ const HomeScreen = () => {
                         Formação/Cursos:
                     </SectionTitle>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7 mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
+                        <CheckCircleIcon className="h-7 mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-2"/>
                         <Paragraph>
                             Engenharia da computação - Estácio-Iesam
                         </Paragraph>
                     </div>
                     <div className="flex items-center">
-                        <CheckCircleIcon className="h-7  mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0"/>
+                        <CheckCircleIcon className="h-7  mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-2"/>
                         <Paragraph>
                             Desenvolvimento Web Full Stack - Trybe.
                         </Paragraph>
@@ -56,13 +56,13 @@ const HomeScreen = () => {
                         Fale Comigo:
                     </SectionTitle>
                     <div className="ml-4 flex items-center">
-                        <EnvelopeIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
+                        <EnvelopeIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-2" />
                         <Paragraph>
                             brenokaminski@hotmail.com
                         </Paragraph>
                     </div>
                     <div className="ml-4 flex items-center">
-                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
+                        <ChatBubbleLeftEllipsisIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-2" />
                         <Paragraph>
                             (91)98156-1194
                         </Paragraph>
