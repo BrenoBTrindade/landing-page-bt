@@ -74,7 +74,7 @@ const HomeScreen = () => {
                 </div>
             </section>
             <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
-                <div className="flex justify-center">
+                <div className="flex justify-center" id="tecnologias">
                    <SectionTitle>
                         Tecnologias mais utilizadas
                    </SectionTitle>
@@ -83,7 +83,7 @@ const HomeScreen = () => {
                    <Carousel />
                 </div>
                 <section>
-                <div className="flex justify-center">
+                <div className="flex justify-center" id="projetos">
                    <SectionTitle>
                         Projetos
                    </SectionTitle>
