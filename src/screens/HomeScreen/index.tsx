@@ -28,7 +28,7 @@ const HomeScreen = () => {
                 </div>
                 <div id="sobre" className="w-2/4 h-2/4 -mt-[60px] max-md:min-w-full">
                     <SectionTitle>
-                        Sobre mim
+                        Sobre mim:
                     </SectionTitle>
                     <div className="ml-8 max-md:min-w-full">
                         <Paragraph>
@@ -38,7 +38,7 @@ const HomeScreen = () => {
                         </Paragraph>
                     </div>
                     <SectionTitle>
-                        Formação/Cursos
+                        Formação/Cursos:
                     </SectionTitle>
                     <div className="flex items-center">
                         <CheckCircleIcon className="h-7 mt-3.5 ml-8 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
@@ -53,7 +53,7 @@ const HomeScreen = () => {
                         </Paragraph>
                     </div>
                     <SectionTitle>
-                        Fale Comigo!
+                        Fale Comigo:
                     </SectionTitle>
                     <div className="ml-4 flex items-center">
                         <EnvelopeIcon className="h-7  mt-3.5 ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0" />
