@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
  export default function CarouselIcons() {
     return (
-        <Carousel showStatus={false} className="w-2/4 mt-5 max-md:w-full max-md:dark:bg-gray-200 rounded-lg">
+        <Carousel showStatus={false} className="w-2/5 mt-5 max-md:w-full max-md:dark:bg-gray-200 rounded-lg">
                 <div className="flex p-10 max-md:p-0">
                     <SkillsIcons src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'} alt={'NodeJs'} />
                     <SkillsIcons src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'} alt={'Express'} />
