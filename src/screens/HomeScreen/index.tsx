@@ -22,7 +22,7 @@ const HomeScreen = () => {
                     <TogleThemeMobile />
                 </div>
             </section>
-            <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-slate-700 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+            <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-900 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
                 <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
                 <div id="sobre" className="w-1/2 max-md:min-w-full">
                     <SectionTitle>
@@ -65,7 +65,7 @@ const HomeScreen = () => {
                             (91)98156-1194
                         </Paragraph>
                     </div>
-                        <div className="flex justify-end mr-4">
+                        <div className="flex justify-end mr-4 dark:text-white">
                                 <ArrowDownTrayIcon className="h-7  ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
                                 <a className="ml-2 mt-1 font-bold" href='https://drive.google.com/file/d/1MnK6T0YHWsZPUWiE2y14KrzsUUW0aUd2/view' target="-blank">
                                 Download CV
@@ -73,7 +73,7 @@ const HomeScreen = () => {
                         </div>
                 </div>
             </section>
-            <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-slate-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+            <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
                 <div className="flex justify-center">
                    <SectionTitle>
                         Tecnologias mais utilizadas
