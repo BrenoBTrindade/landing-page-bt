@@ -23,7 +23,9 @@ const HomeScreen = () => {
                 </div>
             </section>
             <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-900 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
-                <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
+                <div className="w-2/4 h-2/4 p-3.5 mt-8 mb-8 ml-9 ">
+                    <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
+                </div>
                 <div id="sobre" className="w-2/4 max-md:min-w-full">
                     <SectionTitle>
                         Sobre mim
