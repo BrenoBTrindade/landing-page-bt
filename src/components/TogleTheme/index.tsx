@@ -12,7 +12,7 @@ export default function TogleTheme () {
     })
 
  return (
-    <div className="hidden sm:block -mr-5">
+    <div className="hidden sm:block mr-5">
         <MoonIcon className="h-7 text-gray-950 block dark:hidden cursor-pointer  dark:text-gray-100" onClick={togle}/>
         <SunIcon className="h-7 text-gray-950 hidden dark:block cursor-pointer  dark:text-gray-100" onClick={togle}/>
     </div>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
  export default function CarouselProject() {
     return (
-        <Carousel showStatus={false} showArrows={false} autoPlay={true} interval={6000} showIndicators={false} infiniteLoop={true} className="w-4/6 p-10 mt-5 max-md:w-full max-md:dark:bg-gray-400 max-md:ml-8 border-none">
+        <Carousel showStatus={false} showArrows={false} autoPlay={true} interval={6000} showIndicators={false} infiniteLoop={true} className="w-4/6 p-10 mt-5 max-md:w-full max-md:dark:bg-gray-700 max-md:ml-8 border-none rounded-md">
         <div className="flex flex-col m-auto ml-2" >
             <h1 className="text-xl font-bold dark:text-gray-200 max-md:text-sm">Wallet</h1>
             <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/wallet.gif'} alt={'Wallet'} width={50} height={50} />
