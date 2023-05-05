@@ -35,6 +35,17 @@ const icons = [
             alt: 'Mocha',
         },
         {
+            src: '/heroku.svg',
+            alt: 'Heroku',
+        },
+        {
+            src: '/sequelize.svg',
+            alt: 'Sequelize',
+        },
+
+    ],
+    [   
+        {
             src: '/react.svg',
             alt: 'React',
         },
@@ -42,8 +53,6 @@ const icons = [
             src: '/jest.svg',
             alt: 'Jest',
         },
-    ],
-    [
         {
             src: '/nextjs.svg',
             alt: 'Next',
@@ -56,6 +65,9 @@ const icons = [
             src: '/tailwindcss.svg',
             alt: 'Tailwind',
         },
+
+    ],
+    [   
         {
             src: '/bootstrap.svg',
             alt: 'Bootstrap',
@@ -64,8 +76,6 @@ const icons = [
             src: '/html5.svg',
             alt: 'HTML',
         },
-    ],
-    [
         {
             src: '/css.svg',
             alt: 'CSS',
