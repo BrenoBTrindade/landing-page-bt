@@ -2,6 +2,7 @@ import Link from "../Link";
 import Title from "../Title";
 import { MoonIcon } from "@heroicons/react/24/solid";
 import TogleTheme from "../TogleTheme";
+import AnchorComponent from "../ Anchor";
 
 export default function Header() {
     return (
@@ -15,15 +16,16 @@ export default function Header() {
                     </h2>
             </div>
                 <nav className="flex w-2/5 justify-evenly max-lg:hidden  max-xl:hidden">
-                    <Link href='#sobre'>
+                    <AnchorComponent href={'#sobre'}>
                         Sobre
-                    </Link>
-                    <Link href='#tecnologias'>
+                    </AnchorComponent>
+                    <AnchorComponent href={'#tecnologias'}>
                         Tecnologias
-                    </Link>
-                    <Link href='#projetos'>
+                    </AnchorComponent>
+                    <AnchorComponent href={'#projetos'}>
                         Projetos
-                    </Link>
+                    </AnchorComponent>
+
                     <Link href='https://www.linkedin.com/in/betrindade/' target="-blank">
                         Linkedin
                     </Link>
