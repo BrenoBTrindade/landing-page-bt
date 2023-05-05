@@ -7,7 +7,7 @@ import { CheckCircleIcon, ChatBubbleLeftEllipsisIcon, EnvelopeIcon, ArrowDownTra
 import TogleThemeMobile from "@/components/TogleThemeMobile";
 import Head from "next/head";
 import Carousel from "../Carousel";
-import Link from "@/components/Link";
+import CarouselProject from "@/components/CarouselProject";
 
 
 const HomeScreen = () => {
@@ -22,7 +22,7 @@ const HomeScreen = () => {
                     <TogleThemeMobile />
                 </div>
             </section>
-            <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-900 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+            <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-900 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none max-xl:bg-transparent max-xl:shadow-none max-xl:flex-col">
                 <div className="w-2/4 h-2/4 p-3.5 mt-8 mb-8 ml-9 ">
                     <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
                 </div>
@@ -67,7 +67,7 @@ const HomeScreen = () => {
                             (91)98156-1194
                         </Paragraph>
                     </div>
-                        <div className="ml-4 flex items-center mt-3 dark:text-white">
+                        <div className="ml-4 flex items-center animate-bounce mt-3 dark:text-white">
                                 <ArrowDownTrayIcon className="h-7  ml-5 dark:text-gray-100 max-md:mt-0 max-md:mr-0 "/>
                                 <a className="ml-2 mt-1 font-bold" href='https://drive.google.com/file/d/1MnK6T0YHWsZPUWiE2y14KrzsUUW0aUd2/view' target="-blank">
                                 Download CV
@@ -75,13 +75,13 @@ const HomeScreen = () => {
                         </div>
                 </div>
             </section>
-            <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none">
+            <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-500 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none max-xl:shadow-none">
                 <div className="flex justify-center">
                    <SectionTitle>
                         Tecnologias mais utilizadas
                    </SectionTitle>
                 </div>
-                <div className="flex justify-center" id="tecnologias">    
+                <div className="flex justify-center -m-11" id="tecnologias">    
                    <Carousel />
                 </div>
                 <section>
@@ -90,13 +90,9 @@ const HomeScreen = () => {
                         Projetos
                    </SectionTitle>
                 </div>
-                   <h1 className="text-center mt-10 font-bold dark:text-white">
-                        EM DESENVOLVIMENTO......
-                   </h1>
-                   <p className="text-center mt-10 font-bold  dark:text-white">
-                        projetos publicados no
-                   <a href="https://github.com/BrenoBTrindade" target="_Blank" className="text-center  ml-1 text-blue-600">GitHub</a>
-                   </p>
+                <div className="flex justify-center -m-11">    
+                    <CarouselProject />
+                </div>
                 </section>
             </section>
         </React.Fragment>
