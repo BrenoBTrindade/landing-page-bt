@@ -40,7 +40,18 @@ import Link from "next/link";
             <div className="mt-5 animate-bounce mb-5">
                 <Link className="text-center text-gray-200 shadow-md rounded-md  text-md font-semibold opacity-70 hover:opacity-100 bg-blue-700 p-2" href='https://github.com/BrenoBTrindade/Carteira_Online' target="_blank">Code</Link>
             </div>
-        </div>         
+        </div>
+        <div className="flex flex-col m-auto ml-2" >
+            <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Bank</h1>
+            <img className="rounded-md p-4 shadow-md bg-black  mt-8 mb-2" src={'/delivery.gif'} alt={'Delivery'} width={50} height={50} />
+            <Paragraph>Delivery App, foi um projeto feito em time, onde foi desenvolvido um sistema, com login para cliente, vendedor e administrador do sistema, o codigo está em processo de publicação</Paragraph>
+            <Paragraph>
+            Tecnologias utilizadas: NodeJS, MySQL, Express, Sequelize, Docker, React, CSS e JavaScript.
+            </Paragraph>
+            <div className="mt-5 animate-bounce mb-5">
+                <Link className="text-center text-gray-200 shadow-md rounded-md  text-md font-semibold opacity-70 hover:opacity-100 bg-blue-700 p-2" href='https://github.com/BrenoBTrindade' target="_blank">Code</Link>
+            </div>
+        </div>           
         </Carousel>
     )
 }
