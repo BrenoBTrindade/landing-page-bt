@@ -85,7 +85,7 @@ const HomeScreen = () => {
                    <Carousel />
                 </div>
                 <section>
-                <div className="flex justify-center" id="projetos">
+                <div className="flex justify-center mr-7" id="projetos">
                    <SectionTitle>
                         Projetos
                    </SectionTitle>
