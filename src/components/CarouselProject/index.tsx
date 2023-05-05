@@ -9,7 +9,7 @@ import Link from "next/link";
         <Carousel showStatus={false} showArrows={false} autoPlay={true} interval={6000} showIndicators={false} infiniteLoop={true} className="w-4/6 p-10 mt-5 max-md:w-full max-md:dark:bg-gray-400 max-md:ml-8 border-none">
         <div className="flex flex-col m-auto ml-2" >
             <h1 className="text-xl font-bold dark:text-gray-200 max-md:text-sm">Wallet</h1>
-            <img className="rounded-md p-4 shadow-md bg-black  mt-8 mb-2" src={'/wallet.gif'} alt={'Wallet'} width={50} height={50} />
+            <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/wallet.gif'} alt={'Wallet'} width={50} height={50} />
             <Paragraph>Uma carteira de controle de gastos com conversor de moedas. Ao utilizar essa aplicação um usuário deverá ser capaz de Adicionar, remover e editar um gasto.
             </Paragraph>
             <Paragraph>
@@ -21,7 +21,7 @@ import Link from "next/link";
         </div>
         <div className="flex flex-col m-auto ml-2" >
             <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Trivia</h1>
-            <img className="rounded-md p-4 shadow-md bg-black  mt-8 mb-2" src={'/trivia.gif'} alt={'Wallet'} width={50} height={50} />
+            <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/trivia.gif'} alt={'Wallet'} width={50} height={50} />
             <Paragraph>Trivia, é um jogo onde os concorrentes são questionados sobre fatos interessantes, mas sem importância em muitos assuntos.</Paragraph>
             <Paragraph>
             Tecnologias utilizadas: React, Jest, Redux, CSS e JavaScript.
@@ -32,7 +32,7 @@ import Link from "next/link";
         </div> 
         <div className="flex flex-col m-auto ml-2" >
             <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Bank</h1>
-            <img className="rounded-md p-4 shadow-md bg-black  mt-8 mb-2" src={'/apptransferencia.gif'} alt={'Wallet'} width={50} height={50} />
+            <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/apptransferencia.gif'} alt={'Wallet'} width={50} height={50} />
             <Paragraph>Com banco online você consegue fazer tranferencias e ver historico de transações.</Paragraph>
             <Paragraph>
             Tecnologias utilizadas: NodeJS, PostgresSQL, Express, Sequelize, Docker, React, CSS e TypeScript.
@@ -43,7 +43,7 @@ import Link from "next/link";
         </div>
         <div className="flex flex-col m-auto ml-2" >
             <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Bank</h1>
-            <img className="rounded-md p-4 shadow-md bg-black  mt-8 mb-2" src={'/delivery.gif'} alt={'Delivery'} width={50} height={50} />
+            <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/delivery.gif'} alt={'Delivery'} width={50} height={50} />
             <Paragraph>Delivery App, foi um projeto feito em time, onde foi desenvolvido um sistema, com login para cliente, vendedor e administrador do sistema, o codigo está em processo de publicação</Paragraph>
             <Paragraph>
             Tecnologias utilizadas: NodeJS, MySQL, Express, Sequelize, Docker, React, CSS e JavaScript.
