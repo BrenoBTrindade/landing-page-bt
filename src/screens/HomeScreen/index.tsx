@@ -8,6 +8,7 @@ import TogleThemeMobile from "@/components/TogleThemeMobile";
 import Head from "next/head";
 import Carousel from "../Carousel";
 import CarouselProject from "@/components/CarouselProject";
+import SectionTwoTitle from "@/components/SectionTwoTitle";
 
 
 const HomeScreen = () => {
@@ -76,19 +77,19 @@ const HomeScreen = () => {
                 </div>
             </section>
             <section className="bg-gray-300 rounded-sm flex-col w-3/5 -mt-5 m-auto mb-5 min-h-full shadow-md dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center  max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full dark:bg-gray-700 max-md:shadow-none max-xl:shadow-none">
-                <div className="flex justify-center">
-                   <SectionTitle>
+                <div className="flex justify-around max-md:w-full  m-auto " id="tecnologias">
+                   <SectionTwoTitle>
                         Tecnologias mais utilizadas
-                   </SectionTitle>
+                   </SectionTwoTitle>
                 </div>
-                <div className="flex justify-center " id="tecnologias" >    
+                <div className="flex justify-center " >    
                    <Carousel />
                 </div>
                 <section>
-                <div className="flex justify-center mr-7" id="projetos">
-                   <SectionTitle>
+                <div className="flex justify-center" id="projetos">
+                   <SectionTwoTitle>
                         Projetos
-                   </SectionTitle>
+                   </SectionTwoTitle>
                 </div>
                 <div className="flex justify-center ">    
                     <CarouselProject />
