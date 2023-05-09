@@ -14,14 +14,14 @@ export default function Header() {
                 </Dropdown.Button>
                 <Dropdown.Menu aria-label="Actions" >
                     <Dropdown.Item key="sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
-                    <Dropdown.Item key="Tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
-                    <Dropdown.Item key="Projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
-                    <Dropdown.Item key="Linkedin">
+                    <Dropdown.Item className="mt-5" key="Tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
+                    <Dropdown.Item className="mt-5" key="Projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
+                    <Dropdown.Item className="mt-5" key="Linkedin">
                         <a href='https://www.linkedin.com/in/betrindade/' target="-blank">
                             Linkedin
                         </a>
                     </Dropdown.Item>
-                    <Dropdown.Item key="Github">
+                    <Dropdown.Item className="mt-5" key="Github">
                         <a href='https://github.com/BrenoBTrindade' target="-blank">
                             GitHub
                         </a>
