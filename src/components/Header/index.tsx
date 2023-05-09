@@ -13,9 +13,9 @@ export default function Header() {
                 <Dropdown.Button icon={<Bars3Icon className="h-7 dark:text-gray-100" />} light>
                 </Dropdown.Button>
                 <Dropdown.Menu aria-label="Actions" >
-                    <Dropdown.Item key="sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
-                    <Dropdown.Item className="mt-5" key="tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
-                    <Dropdown.Item className="mt-5" key="projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
+                    <Dropdown.Item key="#sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
+                    <Dropdown.Item className="mt-5" key="#tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
+                    <Dropdown.Item className="mt-5" key="#projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
                     <Dropdown.Item className="mt-5" key="linkedin">
                         <a href='https://www.linkedin.com/in/betrindade/' target="-blank">
                             Linkedin
