@@ -42,7 +42,7 @@ import Link from "next/link";
             </div>
         </div>
         <div className="flex flex-col m-auto ml-2" >
-            <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Bank</h1>
+            <h1 className="text-xl font-bold  dark:text-gray-200 max-md:text-sm">Delivery App</h1>
             <img className="rounded-md p-3 shadow-md bg-black  mt-4 mb-4" src={'/delivery.gif'} alt={'Delivery'} width={50} height={50} />
             <Paragraph>Delivery App, foi um projeto feito em time, onde foi desenvolvido um sistema, com login para cliente, vendedor e administrador do sistema, o codigo está em processo de publicação</Paragraph>
             <Paragraph>
