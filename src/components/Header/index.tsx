@@ -12,19 +12,19 @@ export default function Header() {
             <Dropdown>
                 <Dropdown.Button icon={<Bars3Icon className="h-7 dark:text-gray-100" />} light>
                 </Dropdown.Button>
-                <Dropdown.Menu aria-label="Actions">
+                <Dropdown.Menu aria-label="Actions" color="secondary">
                     <Dropdown.Item key="sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
                     <Dropdown.Item key="Tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
                     <Dropdown.Item key="Projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
                     <Dropdown.Item key="Linkedin">
-                        <Link href='https://www.linkedin.com/in/betrindade/' target="-blank">
+                        <a href='https://www.linkedin.com/in/betrindade/' target="-blank">
                             Linkedin
-                        </Link>
+                        </a>
                     </Dropdown.Item>
                     <Dropdown.Item key="Github">
-                        <Link href='https://github.com/BrenoBTrindade' target="-blank">
+                        <a href='https://github.com/BrenoBTrindade' target="-blank">
                             GitHub
-                        </Link>
+                        </a>
                     </Dropdown.Item>
                 </Dropdown.Menu>
           </Dropdown>
