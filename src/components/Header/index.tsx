@@ -1,17 +1,39 @@
 import Link from "../Link";
 import Title from "../Title";
-import { MoonIcon } from "@heroicons/react/24/solid";
 import TogleTheme from "../TogleTheme";
 import AnchorComponent from "../ Anchor";
+import { Dropdown } from "@nextui-org/react";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 
 export default function Header() {
     return (
-        <div className=" m-auto w-3/5 p-3 flex justify-between items-center bg-transparent border-none rounded-sm text-gray-950 max-md:justify-evenly ">
+        <div className=" m-auto w-3/5 p-3 flex justify-between items-center bg-transparent border-none rounded-sm text-gray-950 max-md:justify-between ">
+            <div className="md:hidden w-1/7 -ml-16">
+            <Dropdown>
+                <Dropdown.Button icon={<Bars3Icon className="h-7 dark:text-gray-100" />} light>
+                </Dropdown.Button>
+                <Dropdown.Menu aria-label="Actions">
+                    <Dropdown.Item key="sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
+                    <Dropdown.Item key="Tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
+                    <Dropdown.Item key="Projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
+                    <Dropdown.Item key="Linkedin">
+                        <Link href='https://www.linkedin.com/in/betrindade/' target="-blank">
+                            Linkedin
+                        </Link>
+                    </Dropdown.Item>
+                    <Dropdown.Item key="Github">
+                        <Link href='https://github.com/BrenoBTrindade' target="-blank">
+                            GitHub
+                        </Link>
+                    </Dropdown.Item>
+                </Dropdown.Menu>
+          </Dropdown>
+            </div>
            <div className="flex flex-col items-start">
                     <Title>
                         Breno Trindade
                     </Title>
-                    <h2 className="text-lg ml-0.5 opacity-80 max-md:text-sm dark:text-white">
+                    <h2 className="text-lg ml-0.5 opacity-80 max-md:text-xs dark:text-white">
                         Desenvolvedor Web Full Stack
                     </h2>
             </div>
