@@ -24,10 +24,10 @@ const HomeScreen = () => {
                 </div>
             </section>
             <section className="bg-white rounded-sm flex w-3/5 mt-5 m-auto mb-5 min-h-full shadow-md dark:bg-gray-900 dark:max-md:bg-transparent max-lg:bg-transparent max-lg:min-w-full max-md::text-center max-md:flex-col max-md:justify-center items-center max-md:-mt-5 max-md:min-w-full max-md:shadow-none max-xl:bg-transparent max-xl:shadow-none max-xl:flex-col">
-                <div className="w-5/12 h-5/12 p-3 mt-8 mb-8 ml-9 ">
+                <div className="w-5/12 h-5/12 p-3 mt-8 mb-8 ml-9 max-2xl:w-2/4 ">
                     <ImageComponent src={'/avatar.jpg'} alt={'foto criada pela Lensa'}/>
                 </div>
-                <div id="sobre" className="w-2/4 h-2/4 ml-2 -mt-4 max-md:min-w-full">
+                <div id="sobre" className="w-2/4 h-2/4 ml-2 -mt-4 max-md:min-w-full max-2xl:w-2/4">
                     <SectionTitle>
                         Sobre mim:
                     </SectionTitle>
