@@ -9,10 +9,10 @@ export default function Header() {
     return (
         <div className=" m-auto w-3/5 p-3 flex justify-between items-center bg-transparent border-none rounded-sm text-gray-950 max-md:justify-between ">
             <div className="md:hidden w-1/7 -ml-16">
-            <Dropdown>
+            <Dropdown >
                 <Dropdown.Button icon={<Bars3Icon className="h-7 dark:text-gray-100" />} light>
                 </Dropdown.Button>
-                <Dropdown.Menu aria-label="Actions" color="secondary">
+                <Dropdown.Menu aria-label="Actions" >
                     <Dropdown.Item key="sobre"><a href={'#sobre'}>Sobre</a></Dropdown.Item>
                     <Dropdown.Item key="Tecnologias"><a href={'#tecnologias'}>Tecnologias</a></Dropdown.Item>
                     <Dropdown.Item key="Projetos"><a href={'#projetos'}>Projetos</a></Dropdown.Item>
