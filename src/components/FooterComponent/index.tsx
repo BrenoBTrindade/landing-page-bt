@@ -12,23 +12,27 @@ export default function FooterComponent() {
       >
         Voltar ao topo <ArrowUpIcon className="h-5 ml-2 dark:text-gray-100" />
       </a>
-      <div className="max-xl:-mt-7 -mt-5 flex justify-center  max-md:mt-0.5 max-md:-ml-2">
+      <div className="max-xl:-mt-7 -mt-5 flex justify-center  max-md:mt-0.5  max-md:ml-2 ">
         <a
-          className="dark:hidden "
+          className="dark:hidden  w-2/5"
           href="https://github.com/BrenoBTrindade"
           target="-blank"
         >
           <Icons src="/github.svg" size={30} alt="" />
         </a>
         <a
-          className="hidden dark:block"
+          className="hidden dark:block w-2/5"
           href="https://github.com/BrenoBTrindade"
           target="-blank"
         >
           <Icons src="/githubwhite.svg" size={50} alt="" />
         </a>
-        <a href="https://github.com/BrenoBTrindade" target="-blank">
-          <Icons src="/linkedin.svg" size={30} alt="" />
+        <a
+          href="https://github.com/BrenoBTrindade"
+          target="-blank"
+          className=" w-2/5"
+        >
+          <Icons src="/linkedin.svg" size={50} alt="" />
         </a>
       </div>
       <p className="dark:text-white max-md:ml-5 opacity-80 max-md:mt-4">
