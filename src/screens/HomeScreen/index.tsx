@@ -6,9 +6,10 @@ import Paragraph from "@/components/Paragraph";
 import { CheckCircleIcon, ChatBubbleLeftEllipsisIcon, EnvelopeIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import TogleThemeMobile from "@/components/TogleThemeMobile";
 import Head from "next/head";
-import Carousel from "../Carousel";
+import CarouselIcons from "@/components/Carousel";
 import CarouselProject from "@/components/CarouselProject";
 import SectionTwoTitle from "@/components/SectionTwoTitle";
+import FooterComponent from "@/components/FooterComponent";
 
 
 const HomeScreen = () => {
@@ -17,7 +18,7 @@ const HomeScreen = () => {
             <Head>
                 <title>Breno Trindade</title>
             </Head>
-            <section className="flex">
+            <section className="flex" id="topo">
                 <Header/>
                 <div className="md:hidden">
                     <TogleThemeMobile />
@@ -83,7 +84,7 @@ const HomeScreen = () => {
                    </SectionTwoTitle>
                 </div>
                 <div className="flex justify-center " >    
-                   <Carousel />
+                   <CarouselIcons />
                 </div>
                 <section>
                 <div className="flex justify-center" id="projetos">
@@ -96,6 +97,7 @@ const HomeScreen = () => {
                 </div>
                 </section>
             </section>
+            <FooterComponent />
         </React.Fragment>
     )
 };

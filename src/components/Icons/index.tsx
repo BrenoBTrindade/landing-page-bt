@@ -3,7 +3,7 @@ import Image from "next/image"
 type Props = {
     size: number,
     src: string,
-    alt: string
+    alt: string,
   }
 
 export default function Icons({size, src, alt}:Props) {
