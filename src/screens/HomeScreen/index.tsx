@@ -17,6 +17,7 @@ const HomeScreen = () => {
         <React.Fragment>
             <Head>
                 <title>Breno Trindade</title>
+                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <section className="flex" id="topo">
                 <Header/>
