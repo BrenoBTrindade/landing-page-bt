@@ -43,7 +43,7 @@ export default function Header() {
           Desenvolvedor Web Full Stack
         </h2>
       </div>
-      <nav className="flex w-2/5 justify-evenly max-lg:hidden  max-xl:hidden">
+      <nav className="flex w-2/5 justify-evenly max-2xl:justify-between max-lg:hidden max-xl:hidden">
         <AnchorComponent href={"#sobre"}>Sobre</AnchorComponent>
         <AnchorComponent href={"#tecnologias"}>Tecnologias</AnchorComponent>
         <AnchorComponent href={"#projetos"}>Projetos</AnchorComponent>
