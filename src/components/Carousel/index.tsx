@@ -8,7 +8,7 @@ export default function CarouselIcons() {
     <Carousel
       showStatus={false}
       autoPlay={true}
-      interval={2000}
+      interval={4000}
       infiniteLoop={true}
       className="w-2/5 mt-5 max-md:w-full max-md:dark:bg-gray-800 rounded-lg max-md:ml-8 dark:text-white max-2xl:w-3/5 "
     >

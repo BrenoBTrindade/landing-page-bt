@@ -10,7 +10,7 @@ export default function CarouselProject() {
       showStatus={false}
       showArrows={false}
       autoPlay={true}
-      interval={6000}
+      interval={10000}
       showIndicators={false}
       infiniteLoop={true}
       className="w-4/6 p-10 mt-5 max-md:w-full max-md:dark:bg-gray-800 max-md:ml-8 border-none rounded-md"
