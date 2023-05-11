@@ -13,7 +13,7 @@ export default function CarouselIcons() {
       className="w-2/5 mt-5 max-md:w-full max-md:dark:bg-gray-800 rounded-lg max-md:ml-8 dark:text-white max-2xl:w-3/5 "
     >
       {icons.map((icon, i) => (
-        <div className="flex p-10 -ml-3" key={i}>
+        <div className="flex p-10 " key={i}>
           {icon.map((iten) => (
             <Icons key={iten.alt} {...iten} size={50} />
           ))}
